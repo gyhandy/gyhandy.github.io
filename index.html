@@ -49,21 +49,32 @@
       height: 120px;
       width: 160px;
     }
-
-    #sjtu_logo {
-      position: absolute;
-      left: 690px;
-      top: 14px;
-      width: 200px;
-      height: 20px;
-    }
-    @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
       #school_logo {
+        position: absolute;
+        right: 200px;
+        height: 100px;
+      }
+    }
+
+@media screen and (max-width: 1200px) {
+      #school_logo {
+        position: absolute;
+        visibility: hidden;
+        display: none;
+        right: 200px;
+        height: 100px;
+      }
+    }
+
+
+
+<!--    #school_logo {
         position: absolute;
         right: 400px;
         height: 100px;
-      }
-      #research_logo {
+      }-->
+    #research_logo {
         position: absolute;
         left: 700px;
         height: 100px;
@@ -87,6 +98,7 @@
 <br>
 
 <h2>Education</h2>
+<hr>
   <img id="school_logo" src="./pics/sjtu_logo.png">
   <h4> Shanghai Jiao Tong University, Shanghai, China (Sep. 2016 - Jun. 2019)</h4>
   <ul>
@@ -108,16 +120,16 @@
 
  <h2>Overseas Experience</h2>
       <img id="school_logo" src="./pics/unc.jpg">
-      <h4> The University of North Carolina at Chapel Hill, North Carolina, USA (Jun. 2018 - Sep. 2018)</h4>
+      <h4> The University of North Carolina at Chapel Hill, NC, USA (Jun. 2018 - Sep. 2018)</h4>
       <ul>
         <li>Position: Visiting Researcher at <a href="http://bric.unc.edu/" target="_blank" rel="external">Biomedical Research Imaging Center</a></li>
         <li>Supervisor: Prof.<a href=http://www.unc.edu/~dgshen/" target="_blank" rel="external"> Dinggang Shen</a></li>
         <li>Project: Unpaired Image Synthesis with GAN </li>
   </ul> 
-  
+<br>  
 
   <h2>Publications</h2>
-<hr>
+
 <table id="tbPublications" width="100%">
     <tr>
         <td width="306">
@@ -133,7 +145,7 @@
 
     <tr>
         <td width="306">
-        <img src="pics/project2.png" width="285px" height= "180px" style="box-shadow: 4px 4px 8px #888">
+        <img src="pics/project2.png" width="285px" height= "170px" style="box-shadow: 4px 4px 8px #888">
         </td>
         <td><strong>Automatic Detection and Segmentation of Rectal Cancer  based on Multimodality Fusion and Co-predictive  Neural Network</strong><br>
             <b>Yunhao Ge</b>, Bin Li, Weixin Yan <br>
@@ -188,7 +200,7 @@
 		</td>
 		<td><strong>Effect of Mechanical Error on Dual-Wedge Laser Scanning System and Error Correction</strong><br>
             <b>Yunhao Ge</b>, Jihao Liu, Fenfen Xue, Enguang Guan, Weixin Yan and Yanzheng Zhao <br>
-            <em>Applied Optics </em>.
+            <em><i><b>Applied Optics</b></i></em>.
 		<br>[<a href="https://www.osapublishing.org/ao/abstract.cfm?uri=ao-57-21-6047">Paper</a>]
         <br><br>
 		</td>
