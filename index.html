@@ -90,10 +90,11 @@
 <h2>Biography</h2>
 <hr>
 <!-- <p>I am pursuing my Ph.D degree in Shanghai Jiao Tong University. Before that, I received my Bachelor and Master degree both from the <a href="http://ei.hust.edu.cn/English/Home.htm">School of Electronic Information and Communications</a>, <a href="http://english.hust.edu.cn/">Huazhong University of Science and Technology</a> (HUST), Wuhan, China. </p> -->
-<p>I am a last year M.Phil in Robotics Institute at <a  target="_blank" href="http://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a> (SJTU), advised by Prof. Yanzheng Zhao and Prof. Weixin
+<p>I am a third year M.Phil in Robotics Institute at <a  target="_blank" href="http://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a> (SJTU), advised by Prof. Yanzheng Zhao and Prof. Weixin
  Yan. Before that, I got the B.Eng. of Mechatronics at <a  target="_blank" href="http://www.en.sdu.edu.cn/"> Shandong University</a>, advised by Prof. Shujiang Chen.  </p>
 
-<p>My research interests includes deep learning for Medical Image Computing（Computer Vision）, deep learning for Robotics and Intelligent Control. 
+<!--<p>My research interests includes deep learning for Medical Image Computing（Computer Vision）, deep learning for Robotics and Intelligent Control. -->
+<p>My research interests broadly include Deep Learning, Machine learning, Medical Image Analysis and Robotics. Currently, I am focusing on interdisciplinary researches by using Deep learning for Medical image analysis
 <B>Looking for a Interest-Match Ph.D. Program which starts from Fall 2019 </B>.</p>
 <br>
 
@@ -135,10 +136,14 @@
         <td width="306">
         <img src="pics/project1.jpg" width="285px" height= "180px" style="box-shadow: 4px 4px 8px #888">
         </td>
-        <td><strong>Unpaired MR to CT Synthesis with Multi-view Adversarial Learning</strong><br>
+        <td><strong>Unpaired MR to CT Synthesis with Correlation Coefficient Constrained Adversarial Learning</strong><br>
             <em><b>Yunhao Ge</b>, Zhong Xue, Yiqiang Zhan and Xiang Zhou <br></em>
-			<p><gr><b>We focus on the problem of whole-body MR to CT synthesis.</b> We proposed a new multi-view adversarial learning technique to resolve two challenges: First, a large amount of paired and aligned images of different modalities may be difficult or infeasible to obtain in situations such as whole-body image synthesis from MR to CT as different anatomies normally have different local motions. Second, it is hard to explicitly enforce the structural consistency between two modalities in the case of lacking paired training images.</gr></p>
-            <em><i><b>SPIE-Image Processing</b>, Aug.2018 (under review)</i></em>.
+			<!--<p><gr><b>We focus on the problem of whole-body MR to CT synthesis.</b> We proposed a new multi-view adversarial learning technique to resolve two challenges: First, a large amount of paired and aligned images of different modalities may be difficult or infeasible to obtain in situations such as whole-body image synthesis from MR to CT as different anatomies normally have different local motions. Second, it is hard to explicitly enforce the structural consistency between two modalities in the case of lacking paired training images.</gr></p>
+            -->
+			<p><gr><b>We focus on the problem of whole-body MR to CT synthesis.</b> Proposed a novel correlation coefficient loss to directly enforce the structural similarity between source image and synthesized target image
+						based on Cycle-Gan; Added a discriminator to distinguish the consistent feature from source and target modalities to make self-supervised constrain guaranteeing
+						the consistency of source and synthesized image, to reduce MAE from 110 to 50</gr></p>
+			<em><i><b>SPIE-Image Processing</b>, Aug.2018 (under review)</i></em>.
 <!--        <br>[<a href="https://ieeexplore.ieee.org/abstract/document/8413124/">Paper</a>]-->
         <br><br>
         </td>
