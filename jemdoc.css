@@ -15,22 +15,36 @@ body {
 html {
   background-color: #eeeeee; 
 }
-
-body { 
+body {
   font-family: Arial, serif;
   color: #000;
-  background-color: #ffffff; 
+  background-color: #ffffff;
   text-align:left; /* for IE */
-  margin-top: 30px; 
-  margin-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  padding-left:  50px;
-  padding-right: 50px;
-  padding-top: 10px;
+  padding-left:  350px;
+  padding-right: 350px;
+  padding-top: 30px;
   padding-bottom: 30px;
-  max-width: 960px;
+  max-width: 1200px;
 }
+/*body { */
+/*  font-family: Arial, serif;*/
+/*  color: #000;*/
+/*  background-color: #ffffff; */
+/*  text-align:left; !* for IE *!*/
+/*  margin-top: 30px; */
+/*  margin-bottom: 30px;*/
+/*  margin-left: auto;*/
+/*  margin-right: auto;*/
+/*  padding-left:  50px;*/
+/*  padding-right: 50px;*/
+/*  padding-top: 10px;*/
+/*  padding-bottom: 30px;*/
+/*  max-width: 960px;*/
+/*}*/
 
 #layout-menu {
 	background: #f6f6f6;
